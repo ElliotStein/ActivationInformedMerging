@@ -1,5 +1,5 @@
 # find parent directory
-PARENT_DIR=$(dirname $(dirname $(pwd)))
+PARENT_DIR=$(dirname $(pwd))
 
 git clone --depth 1 https://github.com/EleutherAI/lm-evaluation-harness $PARENT_DIR/lm-evaluation-harness
 
